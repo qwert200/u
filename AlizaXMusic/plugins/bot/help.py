@@ -11,7 +11,7 @@ from AlizaXMusic.utils import help_pannel
 from AlizaXMusic.utils.database import get_lang, is_commanddelete_on
 from AlizaXMusic.utils.decorators.language import (LanguageStart,
                                                   languageCB)
-from YukkiMusic.utils.inline.help import (help_back_markup,
+from AlizaXMusic.utils.inline.help import (help_back_markup,
                                           private_help_panel)
 
 ### Command
