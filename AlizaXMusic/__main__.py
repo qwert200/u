@@ -52,7 +52,7 @@ async def init():
     await userbot.start()
     await Aliza.start()
     try:
-        await Yukki.stream_call(
+        await Aliza.stream_call(
             "http://docs.evostream.com/sample_content/assets/sintel1m720p.mp4"
         )
     except NoActiveGroupCall:
