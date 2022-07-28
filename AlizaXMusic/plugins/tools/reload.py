@@ -11,7 +11,7 @@ from AlizaXMusic.misc import db
 from AlizaXMusic.utils.database import get_authuser_names, get_cmode
 from AlizaXMusic.utils.decorators import (ActualAdminCB, AdminActual,
                                          language)
-from YukkiMusic.utils.formatters import alpha_to_int
+from AlizaXMusic.utils.formatters import alpha_to_int
 
 ### Multi-Lang Commands
 RELOAD_COMMAND = get_command("RELOAD_COMMAND")
