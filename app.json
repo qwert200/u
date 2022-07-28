@@ -1,30 +1,30 @@
 {
-    "name": "Yukki Music Bot",
-    "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
-    "logo": "https://telegra.ph/file/c0e014ff34f34d1056627.png",
+    "name": "Aliza X Music",
+    "description": "Telegram Group Calls Streaming Bot With Some Useful Features, Written In Python With Pyrogram And Py-Tgcalls. Supporting Platforms Like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
+    "logo": "https://telegra.ph/file/37948a894fd23ca193008.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "Yukki",
-    "YukkiMusicBot",
+    "Aliza",
+    "AlizaXMusic",
     "telegram-bot",
     "pyrogram"
     ],
     "stack": "container",
     "env": {
       "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "Get This Value From https://my.telegram.org",
         "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "Get This Value From https://my.telegram.org",
         "value": "",
         "required": true
       },
       "AUTO_LEAVING_ASSISTANT": {
-        "description": "If you want your assistant to leave all chats automatically after some time.",
+        "description": "If You Want Your Assistant To Leave All Chats Automatically After Some Time.",
         "value": "True",
         "required": false
       },
@@ -39,7 +39,7 @@
         "required": true
       },
       "MUSIC_BOT_NAME": {
-        "description": "A name for your Music Bot. Please don't use ascii characters",
+        "description": "A Name For Your Music Bot. Please Don't Use Ascii Characters Bot Ko Jhaant Farak Nahi Padega",
         "value": "",
         "required": true
       },
@@ -68,9 +68,29 @@
         "value": "",
         "required": true
       },
+      "START_IMG_URL": {
+        "description": "The pic which will be shown when you /start the bot in private.",
+        "value": "",
+        "required": false
+      },
+      "PING_IMG_URL": {
+        "description": "The pic which will be shown when you give the /ping cmd to the bot.",
+        "value": "",
+        "required": false
+      },
+      "SUPPORT_GROUP": {
+        "description": "Link of your support group ! Channel ki id mat daal dena bsdk.",
+        "value": "https://t.me/LegendSupport",
+        "required": false
+      },
+      "SUPPORT_CHANNEL": {
+        "description": "Link of your telegram channel.",
+        "value": "https://t.me/LegendUpdates",
+        "required": false
+      },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/TeamYukki/YukkiMusicBot",
+        "value": "https://github.com/TeamLegend77/AlizaXMusic",
         "required": true
       },
       "UPSTREAM_BRANCH": {
@@ -95,5 +115,6 @@
               "quantity": 1,
               "size": "free"
           }
-      }
+      },
+      "stack": "container"
   }
