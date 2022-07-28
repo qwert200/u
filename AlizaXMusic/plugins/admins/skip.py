@@ -60,7 +60,7 @@ async def skip(cli, message: Message, _, chat_id):
                                             message.from_user.first_name
                                         )
                                     )
-                                    await Yukki.stop_stream(chat_id)
+                                    await Aliza.stop_stream(chat_id)
                                 except:
                                     return
                                 break
