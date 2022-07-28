@@ -19,7 +19,7 @@ from pytgcalls.types.stream import StreamAudioEnded
 import config
 from strings import get_string
 from AlizaXMusic import LOGGER, YouTube, app
-from LegendX.misc import db
+from AlizaXMusic.misc import db
 from AlizaXMusic.utils.database import (add_active_chat,
                                        add_active_video_chat,
                                        get_assistant,
