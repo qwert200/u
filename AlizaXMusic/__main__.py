@@ -45,7 +45,7 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("AlizaMusic.plugins" + all_module)
+        importlib.import_module("AlizaXMusic.plugins" + all_module)
     LOGGER("Alizamusic.plugins").info(
         "Successfully Imported Modules "
     )
