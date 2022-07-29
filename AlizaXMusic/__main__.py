@@ -10,7 +10,7 @@ from config import BANNED_USERS
 from AlizaXMusic import LOGGER, app, userbot
 from AlizaXMusic.core.call import Aliza
 from AlizaXMusic.plugins import ALL_MODULES
-from AlizaXMusic c.utils.database import get_banned_users, get_gbanned
+from AlizaXMusic.utils.database import get_banned_users, get_gbanned
 
 loop = asyncio.get_event_loop()
 
