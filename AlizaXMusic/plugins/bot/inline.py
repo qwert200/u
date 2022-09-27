@@ -45,17 +45,17 @@ async def inline_query_handler(client, query):
                 ]
             )
             searched_text = f"""
-❇️**Title:** [{title}]({link})
+❄️**ᴛɪᴛʟᴇ:** [{title}]({link})
 
-⏳**Duration:** {duration} Mins
-👀**Views:** `{views}`
-⏰**Published Time:** {published}
-🎥**Channel Name:** {channel}
-📎**Channel Link:** [Visit From Here]({channellink})
+⏳**ᴅᴜʀᴀᴛɪᴏɴ:** {duration} Mins
+👀**ᴠɪᴇᴡs:** `{views}`
+⏰**ᴘᴜʙʟɪsʜᴇᴅ ᴛɪᴍᴇ:** {published}
+🎥**ᴄʜᴀɴɴᴇʟ ɴᴀᴍᴇ:** {channel}
+📎**ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ:** [ᴠɪsɪᴛ ᴄʜᴀɴɴᴇʟ]({channellink})
 
 __Reply with /play on this searched message to stream it on voice chat.__
 
-⚡️ ** Inline Search By {MUSIC_BOT_NAME} **"""
+🥀 ** ɪɴʟɪɴᴇ sᴇᴀʀᴄʜ ʙʏ {MUSIC_BOT_NAME} **"""
             answers.append(
                 InlineQueryResultPhoto(
                     photo_url=thumbnail,
